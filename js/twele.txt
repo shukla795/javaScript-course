@@ -1,0 +1,19 @@
+when we use async with function , it will return promise . 
+ this behave is like asynchrously...
+   await means return from that point. complete other work..
+
+In array we store the values, but in Generaters we generate values in sequential way...
+
+map()
+map method creates a new array populated with the results of calling a provide function on every element in the calling array...
+
+the map objects holds key-value pairs & remember the origional insertion order of the keys.
+ both object & primitive values may be used as either a key or value...
+
+ const map1 = new Map();
+
+map1.set('a', 1);
+console.log(map1.get('a'));
+console.log(map1.size);
+map1.delete('b');
+map1.has('Jessie') 
